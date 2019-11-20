@@ -11,4 +11,5 @@ console.log("Xin chào ", name, " năm nay ", age," tuổi");
 let birthyear = prompt ("Bạn sinh năm bao nhiêu?");
 console.log("Xin chào bạn ",name," sinh năm ", birthyear);
 
+// end
 
