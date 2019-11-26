@@ -9,7 +9,10 @@ console.log("Xin chào ", name, " năm nay ", age," tuổi");
 
 // Hỏi năm sinh và in ra console
 let birthyear = prompt ("Bạn sinh năm bao nhiêu?");
-console.log("Xin chào bạn ",name," sinh năm ", birthyear);
+age = 2019 - birthyear;
+console.log("Xin chào bạn ",name," sinh năm ", age);
 
 // end
+
+
 
