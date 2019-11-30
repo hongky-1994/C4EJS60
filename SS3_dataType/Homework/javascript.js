@@ -3,7 +3,7 @@
 //     let r = prompt("Hãy nhập bán kính hình tròn");
 //     let chuvi = 2 * Math.PI * r;
 //     console.log("chu vi hinh tron la",chuvi);
-//     let dientich = 4 * Math.PI * (r**2);
+//     let dientich = 4 * Math.PI * Math.pow(r,2);
 //     console.log("dien tich hinh tron la ",dientich);
 // }
 
@@ -50,3 +50,14 @@
 
 //     console.log("Sô tiền lẻ còn lại là",x%10000," vnđ");  
 // }
+
+
+// Bài 5: Nhập 1 số có 3 chữ số, tính tổng các chữ số đó.
+
+// let n = parseInt(prompt("Nhập 1 số có 3 chữ số"));
+// let x = (n-n%100)/100; n = n%100;
+// let y = (n-n%10)/10; n = n%10;
+// let z = n;
+// let tong = x + y + z;
+// console.log("Tổng các chữ số là: ", tong," đơn vị");
+
