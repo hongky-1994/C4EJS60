@@ -100,23 +100,23 @@
 // console.log(dt);
 
 // Ví dụ về kết hợp array và object
-let listPhones = [
-{
-    name:"A",
-    price:0,
-    brand:"",
-}
-{
-    name:"B",
-    price:0,
-    brand:"",
-}
-{
-    name:"C",
-    price:0,
-    brand:"",
-}
-];
+// let listPhones = [
+// {
+//     name:"A",
+//     price:0,
+//     brand:"",
+// }
+// {
+//     name:"B",
+//     price:0,
+//     brand:"",
+// }
+// {
+//     name:"C",
+//     price:0,
+//     brand:"",
+// }
+// ];
 
 
 //1. hiển thị danh sách
