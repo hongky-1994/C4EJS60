@@ -14,21 +14,21 @@ let dienThoai = [
 { "Name": "Samsung Galaxy S10","Price": 13000000,"Brand": "Samsung"},
 { "Name": "OnePlus 7 Pro","Price": 13700000 ,"Brand": "OnePlus"}
 ];
-// console.table(dienThoai);
-function hienThiDs () {
-	for (let index = 0; index < dienThoai.length-1; index++) {
-		console.log(index + 1);
-		let  phone = dienThoai[index];
+console.table(dienThoai);
+// function hienThiDs () {
+// 	for (let index = 0; index < dienThoai.length-1; index++) {
+// 		console.log(index + 1);
+// 		let  phone = dienThoai[index];
 	
-		for (let key in phone) {
-			if (phone.hasOwnProperty(key)) {
-				const value = phone[key];
-				console.log(key + ": " + value);
-			}
-		}
-	}
-}
-// hienThiDs();
+// 		for (let key in phone) {
+// 			if (phone.hasOwnProperty(key)) {
+// 				const value = phone[key];
+// 				console.log(key + ": " + value);
+// 			}
+// 		}
+// 	}
+// }
+// // hienThiDs();
 chucNang();
 
 
