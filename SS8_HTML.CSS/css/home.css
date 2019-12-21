@@ -1,0 +1,25 @@
+#content {
+    height: auto;
+    width: 862px;
+    margin: auto;
+}
+#adbox{
+    background: url("../images/bg-adbox.png") no-repeat;
+    padding: 4px;
+}
+img{
+    border: 0;
+}
+#content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: 18px 0px 20px ;
+    padding-left: 2px;
+    color: darkcyan;
+}
+#content p{
+    font-size: 16px;
+    padding: 0 0 24px 2px;
+    line-height: 30px;
+    text-align: justify;
+}
