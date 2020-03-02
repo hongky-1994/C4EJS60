@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ajax</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <style>
+    .card-img-top{
+      width: 50%;
+    }
+    .card{
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Ajax introduction</h1>
+
+    <div>
+      <div class="card" style="width:400px">
+        <img class="card-img-top" width="250px" src="https://cdn4.iconfinder.com/data/icons/weather-29/256/sun_simple_cloudy-256.png" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title" id="condition"></h4>
+          <p class="card-text" id="temp"></p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h1>Weather of week</h1>
+    <div id="weather-week" class="">
+
+    </div>
+  </div>
+  <script src="ajax_intro.js"></script>
+</body>
+</html>

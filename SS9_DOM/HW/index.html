@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Danh sách điện thoại</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Danh sách điện thoại</h1>
+    
+    <div id="container" >
+        
+        <div class="box-control">
+        
+        
+            <!-- Thêm điện thoại------------------------------------------------------------------------------------------->
+            <div class="tb">
+                <h2 style="text-align:center">Nơi thêm thông tin điện thoại</h2>
+                <table class="table" width=100%>
+                    <tr>
+                        <td>Tên Điện Thoại: </td>
+                        <td><input type="text" id="name" placeholder="Tên điện thoại"></td>
+                    </tr>
+                    <tr>
+                        <td>Giá tiền: </td>
+                        <td><input type="number" id="price" placeholder="Đơn vị vnđ"></td>
+                    </tr>
+                    <tr>
+                        <td>Hãng điện thoại:</td>
+                        <td><input type="text" id="brand" placeholder="Hãng"></td>
+                    </tr>
+                </table>
+                <button onclick="addNewPhone()">Thêm</button>
+            </div>
+            
+            
+            
+            <!-- Sửa điện thoại ------------------------------------------------------------------------------------------->
+            <div class="tb">
+                <h2 style="text-align:center">Nơi sửa thông tin điện thoại</h2>
+                <table width=100%>
+                    <tr>
+                        <td>STT muốn sửa: </td>
+                        <td><input type="text" id="stt" placeholder="STT"></td>
+                    </tr>
+                    <tr>
+                        <td>Tên Điện Thoại: </td>
+                        <td><input type="text" id="name1" placeholder="Tên điện thoại"></td>
+                    </tr>
+                    <tr>
+                        <td>Giá tiền: </td>
+                        <td><input type="number" id="price1" placeholder="Đơn vị vnđ"></td>
+                    </tr>
+                    <tr>
+                        <td>Hãng điện thoại:</td>
+                        <td><input type="text" id="brand1" placeholder="Hãng"></td>
+                    </tr>
+                </table>
+                <button onclick="replacePhone()">Sửa thông tin</button>
+            </div>
+            <!-- Xóa điện thoại-->
+            <div class="tb" ">
+                <h2 style="text-align:center">Nơi sửa thông tin điện thoại</h2>
+                <input type="text" id="stt2" placeholder="Số thứ tự muốn xóa."">
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- Table-------------------------------------------------------------------------------------------------- -->
+        <div id="table">
+            <table  class="table" width=100% border="2px" >
+                <thead>
+                    <tr>
+                        <th class="stt">STT</th>
+                        <th class="name">Tên điện thoại</th>
+                        <th class="price">Giá tiền</th>
+                        <th class="brand">Hãng</th>
+                    </tr>
+                </thead>
+                <tbody id="listPhone">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="ss9Hw.js"></script>
+</body>
+</html>
